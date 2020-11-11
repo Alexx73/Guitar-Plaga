@@ -1,0 +1,9 @@
+
+
+  #stats li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 40px;
+
+    text-aling:center;
+  }
