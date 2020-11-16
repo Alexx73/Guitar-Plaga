@@ -1,10 +1,9 @@
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #f3f3f3;
+  background-color: goldenrod;
 }
 
 li {
@@ -13,14 +12,62 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
-  padding: 20px 20px;
+  padding: 14px 16px;
   text-decoration: none;
-  margin: 0;
+  font-weight: bold;
+  margin-left: 2em;
 }
-  main {
-    margin-top: 0px;
+
+
+
+  footer {
+    background-color: darkgray;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
   }
 
+  .center {      
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;      
+   }
+
+   nav {
+     background-color: red;
+   }
+
+   * {
+    box-sizing: border-box;
+  }
   
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    height: 440px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+  }
