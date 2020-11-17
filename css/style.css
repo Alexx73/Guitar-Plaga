@@ -18,9 +18,8 @@ li a {
   text-decoration: none;
   font-weight: bold;
   margin-left: 2em;
+  font-size: 18px;
 }
-
-
 
   footer {
     background-color: darkgray;
@@ -37,23 +36,19 @@ li a {
       margin-right: auto;      
    }
 
-   nav {
-     background-color: red;
-   }
-
    * {
     box-sizing: border-box;
   }
   
-  /* Create two equal columns that floats next to each other */
+  /*  Crea 2 columnas iguales que flotan una al lado de la otra */
   .column {
     float: left;
     width: 50%;
     padding: 20px;
-    height: 440px; /* Should be removed. Only for demonstration */
+    height: 440px; 
   }
   
-  /* Clear floats after the columns */
+  /* Limpia el float despues de las columnas */
   .row:after {
     content: "";
     display: table;
@@ -61,7 +56,7 @@ li a {
   }
 
   .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
     padding: 15px 32px;
