@@ -14,11 +14,15 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 18px;
   text-decoration: none;
   font-weight: bold;
   margin-left: 1.5em;
   font-size: 22px;
+}
+
+a:hover {
+  background-color: yellow;
 }
 
   footer {
