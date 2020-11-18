@@ -21,7 +21,7 @@ li a {
   font-size: 22px;
 }
 
-a:hover {
+li a:hover {
   background-color: yellow;
 }
 
